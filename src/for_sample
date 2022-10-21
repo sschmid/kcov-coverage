@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+main() {
+  local -i n=3
+  for ((i = 0; i < n; i++)); do
+    echo -n "-$i"
+  done
+}
+
+main 1 2 3
